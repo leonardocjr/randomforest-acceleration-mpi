@@ -353,7 +353,7 @@ double **right = malloc(right_count * sizeof(double*));
 3. Run **3 times** for each N processes
 4. Wait **5 seconds** between runs
 5. Calculate **mean** and **RSD (Relative Standard Deviation)**
-6. Discard runs if RSD > 10% [file:11]
+6. Discard runs if RSD > 10% 
 
 ## 📈 Results
 
