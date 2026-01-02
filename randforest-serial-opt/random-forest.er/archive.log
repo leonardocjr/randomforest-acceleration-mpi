@@ -1,0 +1,9 @@
+### Start Fri Jan  2 12:43:58 2026
+# /share/apps/gprofng-install/bin/gprofng-archive -n -a on --outfile /home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archive.log /home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er
+Copying `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest'  to `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archives/random-forest_PyGLFu_EFF2'
+Copying `/usr/lib64/libpthread-2.17.so'  to `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archives/libpthread-2.17.so_OCEC1bthLm2'
+Copying `/usr/lib64/libdl-2.17.so'  to `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archives/libdl-2.17.so_OCEC1bthLm2'
+Copying `/usr/lib64/librt-2.17.so'  to `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archives/librt-2.17.so_OCEC1bthLm2'
+Copying `/usr/lib64/libc-2.17.so'  to `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archives/libc-2.17.so_OCEC1bthLm2'
+Copying `/share/apps/gprofng-install/lib/gprofng/libgp-collector.so'  to `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archives/libgp-collector.so_zkCbjEHhGe2'
+Copying `/usr/lib64/ld-2.17.so'  to `/home/cad07/practical-work-mpi/randforest-serial-opt/random-forest.er/archives/ld-2.17.so_OCEC1bthLm2'
