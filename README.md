@@ -459,4 +459,5 @@ Process 5: [3 trees] █████████ ← Idle waiting
 6. MPI Forum. "MPI: A Message-Passing Interface Standard Version 4.0"
 
 **📄 Full Technical Report**: See `report_practical_work_2_mpi.pdf`
+
 **🎯 Assignment Instructions**: See `practical-work-mpi-december-2025-2026.pdf`
