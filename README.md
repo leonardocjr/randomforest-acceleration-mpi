@@ -15,11 +15,9 @@ subset of the original training data (sampled with replacement);
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Project Structure](#project-structure)
 - [Requirements](#requirements)
 - [Installation & Compilation](#installation--compilation)
 - [Usage](#usage)
-- [Performance Analysis](#performance-analysis)
 - [Profiling](#profiling)
 - [Benchmarking](#benchmarking)
 - [Results](#results)
@@ -400,58 +398,6 @@ double **right = malloc(right_count * sizeof(double*));
 
 ---
 
-### Visualizations
-
-#### Graph 1: Execution Time
-
-```
-200s ┤●
-     │
-150s ┤
-     │
-100s ┤ ●
-     │
- 50s ┤   ●  ●
-     │         ●───●───●───●
-  0s └─────────────────────────
-     1  2  4  6  8 10 12 14 16
-           Processes (N)
-```
-
-
-#### Graph 2: Speedup (Real vs Ideal)
-
-```
-16x ┤            ╱ Ideal
-    │          ╱
-12x ┤        ╱   ●●●● Real
-    │      ╱   ●╱
- 8x ┤    ╱   ●╱
-    │  ╱   ●╱
- 4x ┤╱   ●╱
-    │  ●╱
- 0x └────────────────────
-    2  4  6  8  10 12 14 16
-```
-
-
-#### Graph 3: Efficiency
-
-```
-100% ┤●●
-     │   ●      ●
- 80% ┤     ●  ●   ●
-     │              ●
- 60% ┤                ●●
-     │
- 40% ┤
-     └────────────────────
-     2  4  6  8  10 12 14 16
-```
-
-
----
-
 ## 💡 Discussion
 
 ### Key Findings 
@@ -500,3 +446,17 @@ Process 5: [3 trees] █████████ ← Idle waiting
 | E_R/E_T | 89.05% |
 
 **Conclusion**: Efficiency jumps from 58.7% (N=16) to 88.9% (N=20) when perfectly balanced! 
+
+---
+
+## 📚 References
+
+1. [Random Forest - Wikipedia](https://en.wikipedia.org/wiki/Random_forest)
+2. [Sermet Pekin - Random Forests in C](https://github.com/SermetPekin/random-forests-c)
+3. [Towards Data Science - Random Forests Guide](https://towardsdatascience.com/mastering-random-forests-a-comprehensive-guide-51307c129cb1)
+4. [UCI ML Repository - WDBC Dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
+5. Amdahl, G. M. (1967). "Validity of the single processor approach to achieving large scale computing capabilities"
+6. MPI Forum. "MPI: A Message-Passing Interface Standard Version 4.0"
+
+**📄 Full Technical Report**: See `report_practical_work_2_mpi.pdf`
+**🎯 Assignment Instructions**: See `practical-work-mpi-december-2025-2026.pdf`
